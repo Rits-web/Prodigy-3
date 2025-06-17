@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f8ff;
+  margin: 0;
+  padding-top: 50px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  display: inline-block;
+  background: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #0056b3;
+}
+
+#laps {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.options {
+  margin-bottom: 15px;
+}
+
+.options label {
+  margin-right: 15px;
+  font-size: 0.95em;
+}
+
+/* Dark mode styles */
+body.dark {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .container {
+  background: #1e1e1e;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+body.dark .buttons button {
+  background: #bb86fc;
+  color: black;
+}
+
+body.dark .buttons button:hover {
+  background: #9b4dff;
+}
